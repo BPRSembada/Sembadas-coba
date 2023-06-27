@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sembadas-coba/static/css/main.43d1748b.css",
+    "main.js": "/Sembadas-coba/static/js/main.fad0ad79.js",
+    "static/media/glass-jar-full-money-front-decreasing-stacked-coins-against-white-background.jpg": "/Sembadas-coba/static/media/glass-jar-full-money-front-decreasing-stacked-coins-against-white-background.69114f0cf087d948a80e.jpg",
+    "static/media/sdb.jpg": "/Sembadas-coba/static/media/sdb.9a00aabac274eb57190a.jpg",
+    "index.html": "/Sembadas-coba/index.html",
+    "main.43d1748b.css.map": "/Sembadas-coba/static/css/main.43d1748b.css.map",
+    "main.fad0ad79.js.map": "/Sembadas-coba/static/js/main.fad0ad79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43d1748b.css",
+    "static/js/main.fad0ad79.js"
+  ]
+}
