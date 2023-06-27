@@ -1,0 +1,276 @@
+/* 
+-----------
+hero kredit
+-----------
+*/
+
+.hero-img-kreditKerja {
+  background-image: url("https://img.freepik.com/free-photo/young-asian-technician-man-colleague-safety-uniform-checking-operation-sun-photovoltaic-solar-panel-use-laptop-computer-while-working-solar-farm_1150-57234.jpg?w=1380&t=st=1687765869~exp=1687766469~hmac=68a66e07e6387365af9957bf1765a75d19cb7a3dbb48be99f892c0f1c26f0f9b");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.feature i {
+  color: #f50f0f;
+}
+/* 
+---------------------------
+deskripsi kredi modal kerja
+---------------------------
+*/
+.deskripsi-kedit-kerja {
+  margin-inline: 20rem;
+  margin-block: 6rem;
+}
+
+.deskripsi-kedit-kerja h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #b50b0b;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.deskripsi-kedit-kerja p {
+  font-size: 1.4rem;
+  text-align: center;
+  /* padding-inline: 20rem; */
+}
+/* 
+--------------------------------
+fitur manfaat dan syarat kredit
+--------------------------------
+*/
+.fitur-manfaat-prasayart-kredit {
+  background-image: url("https://img.freepik.com/free-photo/excavator-action_1112-1598.jpg?w=1380&t=st=1687766292~exp=1687766892~hmac=157d79f9c38f4e87cb256a20f5fa3cca2b5a4cd094ad60bcaaab690941b7394e");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  padding-inline: 8rem;
+  padding-block: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.cont-fitur-manfaat-kredit {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* flex-basis: 50%; */
+  align-items: end;
+  /* background-color: #f50f0f; */
+}
+.site-prasarat-kredit {
+  background-color: rgba(255, 255, 255);
+  padding-inline: 3rem;
+  border-radius: 1rem;
+  padding-block: 3rem;
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.site-prasarat-kredit h1 {
+  margin: 0;
+  /* color: #b50b0b; */
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.site-prasarat-kredit ol {
+  text-align: justify;
+}
+
+.site-prasarat-kredit li {
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.tabelSyarat-kredit {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
+.tabelSyarat-kredit h1 {
+  font-size: 1.5rem;
+}
+.tabelSyarat-kredit th {
+  font-size: 0.7rem;
+}
+.tabelSyarat-kredit td {
+  font-size: 0.7rem;
+}
+
+.site-prasarat-kredit .red-kk{
+  color: red;
+}
+
+/* 
+---------
+responsif
+--------- 
+*/
+@media screen and (max-width: 360px) {
+  /* 
+  ------------------
+  deskripsi simpanan
+  ------------------
+  */
+  .deskripsi-kedit-kerja {
+    margin-inline: 2rem;
+    margin-block: 3rem;
+  }
+  .deskripsi-kedit-kerja h1 {
+    font-size: 1.9rem;
+  }
+  .deskripsi-kedit-kerja p {
+    font-size: 1.1rem;
+  }
+
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2rem;
+    padding-block: 2rem;
+  }
+  .cont-fitur-manfaat-kredit {
+    /* background-color: #b50b0b; */
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan {
+    width: 100%;
+    /* background-color: red; */
+  }
+  .site-fitur-manfaat-simpanan h1 {
+    font-size: 1.8rem;
+  }
+  .cont-fitur-manfaat-kanan {
+    width: 100%;
+  }
+  .site-prasarat-simpanan {
+    width: 100%;
+    padding: 1rem;
+  }
+  .site-prasarat-kredit {
+    /* background-color: aqua; */
+    /* width: 25rem; */
+    padding: 1.5rem;
+  }
+  .tabelSyarat-kredit th {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* 
+  ------------------
+  deskripsi simpanan
+  ------------------
+  */
+  .deskripsi-kedit-kerja {
+    margin-inline: 2rem;
+    margin-block: 3rem;
+  }
+  .deskripsi-kedit-kerja h1 {
+    font-size: 1.9rem;
+  }
+  .deskripsi-kedit-kerja p {
+    font-size: 1.1rem;
+  }
+
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 2rem;
+    padding-block: 3rem;
+  }
+  .cont-fitur-manfaat-kredit {
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan {
+    width: 100%;
+  }
+  .site-fitur-manfaat-simpanan h1 {
+    font-size: 1.8rem;
+  }
+  .cont-fitur-manfaat-kanan {
+    width: 100%;
+  }
+  .site-prasarat-simpanan {
+    width: 100%;
+    padding: 1.2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* 
+  ------------------
+  deskripsi simpanan
+  ------------------
+  */
+  .deskripsi-kedit-kerja {
+    margin-inline: 3rem;
+    margin-block: 3rem;
+  }
+  .deskripsi-kedit-kerja h1 {
+    font-size: 1.9rem;
+  }
+  .deskripsi-kedit-kerja p {
+    font-size: 1.1rem;
+  }
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    padding-block: 5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  /* 
+  ---------------------------
+  fitur prasyarat dan manfaat
+  ---------------------------
+  */
+  .fitur-manfaat-prasayart-kredit {
+    width: 100%;
+    padding-inline: 2rem;
+    padding-block: 5rem;
+    /* background-color: #b50b0b; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .cont-fitur-manfaat-kredit {
+    flex-direction: row;
+  }
+}

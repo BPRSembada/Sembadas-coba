@@ -1,0 +1,62 @@
+.main-kalkulator {
+  /* margin-inline: 20rem; */
+  margin-block: 6rem;
+}
+.calkulator-pinjaman {
+  /* margin-inline: 20rem; */
+  margin-bottom: 3rem;
+}
+.calkulator-pinjaman-page {
+  /* margin-inline: 20rem; */
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calkulator-pinjaman-page h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  color: #b50b0b;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.calkulator-pinjaman-page p {
+  font-size: 1.1rem;
+  text-align: center;
+  /* padding-inline: 20rem; */
+  margin-bottom: 1.5rem;
+}
+.cont-kalkulator {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: start;
+  /* background-color: #b50b0b; */
+  padding-inline: 20rem;
+  margin-bottom: 2rem;
+}
+
+.button-jenis-kredit button {
+  border: none;
+  background-color: #b50b0b;
+  padding: 1rem;
+  color: #fff;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+.button-jenis-kredit button:hover {
+  background-color: #720b0b;
+}
+.form-kalkulator {
+  flex-basis: 50%;
+}
+.hasil-kalkulator {
+  flex-basis: 50%;
+}
+.hasil-kalkulator h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}

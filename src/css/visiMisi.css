@@ -1,0 +1,113 @@
+.hero-section-visi {
+  background-image: url("https://i.ibb.co/qm68VWp/business-concept-with-team-close-up.jpg");
+  background-size: cover;
+
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.containers-visi {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.visimisi-desc p{
+  margin-inline: 20%;
+  text-align: center;
+  margin-block: 5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.cont-visi {
+  margin-inline: 6rem;
+}
+.containers-visi h1 {
+  font-size: 3rem;
+}
+.vismis h2 {
+  color: #b50b0b;
+}
+
+.vismis p {
+  color: black;
+  font-size: 1.5em;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.vismis li {
+  color: black;
+  text-align: start;
+}
+.vismis b {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    height: 300px;
+  }
+  .cont-visi {
+    margin-inline: 2rem;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+.vision-mission {
+  padding: 50px 0;
+  /* margin-top: 3rem; */
+  /* color: black; */
+}
+
+.vision-mission h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.vision-mission p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.vision-mission ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.vision-mission ul li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.vision-mission ul li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+}
+
+@media only screen and (max-width: 768px) {
+  .vision-mission .col-lg-6 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .cont-visi {
+    margin-inline: 2rem;
+  }
+}
